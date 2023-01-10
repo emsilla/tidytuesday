@@ -1,0 +1,17 @@
+Title: Over 30 Years of Standardized Bird Counts at Supplementary Feeding Stations in North America: A Citizen Science Data Report for Project FeederWatch
+Article Link: https://www.frontiersin.org/articles/10.3389/fevo.2021.619682/full
+
+# Notes about Datassets 
+
+Two main datasets: checklist (includes bird counts) and site descriptions
+
+Four data levels 
+1. Site level (fixed location) 
+2. Season level (within one site, how does it change across seasons)
+3. Checklist level (variables across a single checklist, like a date) 
+4. Observation level (individual species in checklist)
+
+# Notes about Cleaning 
+
+- To merge datasets, use LOC_ID (location) and PROJ_PERIOD_ID (year) 
+- If looking at bird observations, need to filder to only use VALID = 1 (could look at all observations to look at changes in accuracy over time, however)
